@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+.header{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    background-color: #fff9f4;
+}
+
+.LOGO{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.LOGO img{
+    width: 50%;
+}
+.LOGO span{
+    width: 100px;
+    
+}
+.Nike{
+width: 300px;
+}
+
+.navlinks{
+    display: flex;
+
+    gap: 60px;
+}
+
+.navlinks li{
+    list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+    font-weight: bold;
+}
+#niketext{
+     color: #ff8367;
+}
