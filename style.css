@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -13,6 +14,9 @@ header{
     justify-content: space-around;
     align-items: center ;
     background-color: #fff9f4;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    position: sticky;
+    top: 0px;
 }
 
 .LOGO{
